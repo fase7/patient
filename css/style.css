@@ -1,41 +1,41 @@
 body{background-image: url(../cl.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-height: 800px;}
-.container{background-color: rgb(240, 248, 255);
-    height: 700px;
-    width: 600px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-
-}
-
-span i {color: rgba(0, 0, 0, 0.329);}
-input:focus, input:focus{
-    outline: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 760px;}
+    .container{background-color: rgba(240, 248, 255, 0.603);
+        height: 100%;
+        width: 600px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
     
-}
-input {
-    background-color: transparent;
-    border: 0px solid;
-    color: rgb(0, 0, 0);
-    border-bottom: 1px solid rgb(0, 0, 0);
-    height: 50px;width: 200px;
-}
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color:black;
-    opacity: .3; /* Firefox */
-    text-align: center;
-  }
-button{height: 50px;width: 200px;
-border: 0px;background: rgb(147, 77, 208);
-color: aliceblue;border-radius: 20px;transition: 0.3s;}
-button:hover{background-color: #ec639e;}
+    }
+    
+    span i {color: rgba(0, 0, 0, 0.329);}
+    input:focus, input:focus{
+        outline: none;
+        
+    }
+    input {
+        background-color: transparent;
+        border: 0px solid;
+        color: rgb(0, 0, 0);
+        border-bottom: 1px solid rgb(0, 0, 0);
+        height: 50px;width: 200px;
+    }
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color:black;
+        opacity: .3; /* Firefox */
+        text-align: center;
+      }
+    button{height: 50px;width: 200px;
+    border: 0px;background: rgb(147, 77, 208);
+    color: aliceblue;border-radius: 20px;transition: 0.3s;}
+    button:hover{background-color: #ec639e;}
